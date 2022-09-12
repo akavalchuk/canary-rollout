@@ -17,7 +17,7 @@ spec:
         - name: canary-demo
           #image: idanarbel/rollouts-demo:purple
           #image: idanarbel/rollouts-demo:green
-          image: alkavalchuk/rollouts-demo:red
+          image: alkavalchuk/rollouts-demo:pink
           imagePullPolicy: Always
           ports:
             - name: http
