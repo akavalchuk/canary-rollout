@@ -6,12 +6,3 @@ metadata:
     ingress.kubernetes.io/proxy-body-size: 100M
     kubernetes.io/ingress.class: nginx
     ingress.kubernetes.io/app-root: /
-spec:
-  rules:
-  - host: canary-preview.dev.argoproj.io
-    http:
-      paths:
-      - path: /
-        backend:
-          serviceName: canary-demo-preview
-          servicePort: 80
